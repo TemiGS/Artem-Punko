@@ -1,0 +1,28 @@
+.fl-jc-center{
+    display: flex;
+    justify-content: center;
+}
+.fl-jc-sb{
+    display: flex;
+    justify-content: space-between;
+}
+.fl-jc-sa{
+    display: flex;
+    
+    justify-content:space-around;
+}
+.fl{
+    display: flex;
+}
+.fl-ai-c{
+    display: flex;
+    align-items: center;
+}
+.fl-ai-fs{
+    display: flex;
+    align-items:flex-start;
+}
+.fl-d-colmn{
+    display: flex;
+    flex-direction: column;
+}
