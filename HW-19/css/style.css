@@ -1,0 +1,147 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+.main {
+  text-align: center;
+}
+
+.main .decoration .basket-flowers {
+  position: fixed;
+  top: 0;
+  left: -10%;
+  z-index: -5;
+}
+
+.main .decoration .egg-purple {
+  position: fixed;
+  width: 336px;
+  height: 417px;
+  right: 12%;
+  top: -12%;
+  z-index: -5;
+}
+
+.main .decoration .egg-lite-blue {
+  position: fixed;
+  right: -7%;
+  top: -12%;
+  z-index: -5;
+}
+
+.main .decoration .basket-eggs {
+  position: fixed;
+  width: 595px;
+  height: 591px;
+  right: -5%;
+  bottom: 5%;
+  z-index: -5;
+}
+
+.main .decoration .egg-blue {
+  position: fixed;
+  left: -7%;
+  bottom: -25%;
+  z-index: -5;
+}
+
+.main .decoration .egg-yellow {
+  position: fixed;
+  left: 20%;
+  bottom: -24%;
+  z-index: -5;
+}
+
+.main .decoration .egg-red {
+  position: fixed;
+  right: 18%;
+  bottom: -32%;
+  z-index: -5;
+}
+
+.main .decoration .logo {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: -5;
+}
+
+.main .content {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main .content .h1 {
+  font-weight: normal;
+  margin-top: 200px;
+  font-size: 120px;
+  color: #161d6f;
+}
+
+.main .content .discount {
+  margin-left: auto;
+  margin-right: auto;
+  width: 380px;
+  background: #ffe097;
+}
+
+.main .content .discount .discount-p {
+  color: #161d6f;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.main .content .text {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+.main .content .text .text-p {
+  font-size: 24px;
+  color: #161d6f;
+}
+
+.main .content .check-our {
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #161d6f;
+}
+
+.main .content .footer {
+  margin-top: 150px;
+}
+
+.main .content .footer .link {
+  font-size: 24px;
+  font-weight: bold;
+  color: #161d6f;
+}
+
+.main .content .footer nav ul {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main .content .footer nav ul li {
+  display: inline;
+  margin-right: 7px;
+}
+
+.main .content .footer nav ul li a img {
+  background: #161d6f;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */

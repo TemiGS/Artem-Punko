@@ -1,0 +1,138 @@
+$dark-blue: #161d6f;
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.main{
+    text-align: center;
+
+    .decoration{
+        .basket-flowers{
+            position: fixed;
+            top: 0;
+            left: -10%;
+            z-index: -5;
+        }
+        .egg-purple{
+            position: fixed;
+            width: 336px;
+            height: 417px;
+            right: 12%;
+            top: -12%;
+            z-index: -5;
+        }
+        .egg-lite-blue{
+            position: fixed;
+            right: -7%;
+            top: -12%;
+            z-index: -5;
+        }
+        .basket-eggs{
+            position: fixed;
+            width: 595px;
+            height: 591px;
+            right: -5%;
+            bottom: 5%;
+            z-index: -5;
+        }
+        .egg-blue{
+            position: fixed;
+            left: -7%;
+            bottom: -25%;
+            z-index: -5;
+        }
+        .egg-yellow{
+            position: fixed;
+            left: 20%;
+            bottom: -24%;
+            z-index: -5;
+        }
+        .egg-red{
+            position: fixed;
+            right: 18%;
+            bottom: -32%;
+            z-index: -5;
+        }
+        .logo{
+            position: fixed;
+            top: 50px;
+            left: 0;
+            right: 0;
+            margin: auto;
+            z-index: -5;
+        }
+    }
+    
+    .content{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .h1{
+            font-weight: normal;
+            margin-top: 200px;
+            font-size: 120px;
+            color: $dark-blue;
+        }
+        .discount{
+            margin-left: auto;
+            margin-right: auto;
+            width: 380px;
+            background: #ffe097;
+
+            .discount-p{
+                color: $dark-blue;
+                font-size: 26px;
+                font-weight: bold;
+            }
+        }
+        .text{
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 400px;
+
+            .text-p{
+                font-size: 24px;
+                color: $dark-blue;
+            }
+        }
+        .check-our{
+            margin-top: 40px;
+            font-size: 24px;
+            font-weight: bold;
+            color: $dark-blue;
+        }
+        .footer{
+            margin-top: 150px;
+
+            .link{
+                font-size: 24px;
+                font-weight: bold;
+                color: $dark-blue;
+            }
+            nav{
+                ul{
+                    margin-top: 20px;
+                    margin-left: auto;
+                    margin-right: auto;
+
+                    li{
+                        display: inline;
+                        margin-right: 7px;
+                        a{
+                            img{
+                                background: $dark-blue;
+                                border-radius: 50%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
